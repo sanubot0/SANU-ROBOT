@@ -5,7 +5,7 @@ module.exports = {
 	config: {
 		name: "info",
 		version: "1.0",
-		author: "cliff",
+		author: "jules",
 		countDown: 20,
 		role: 0,
 		shortDescription: { vi: "", en: "" },
@@ -15,15 +15,15 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "yazky";
-		const botPrefix = "!";
-		const authorName = "CliffVincent";
+		const botName = "Jayson";
+		const botPrefix = "-";
+		const authorName = "Jules";
 		const ownAge = "18";
 		const teamName = "Github team";
-		const authorFB = "https://www.facebook.com/swordigo.swordslush";
+		const authorFB = "https://www.facebook.com/profile.php?id=100084525945365";
 		const authorInsta = "Thead469";
-		const tikTok = "tiktok.com/@Cliffthegreat0";
-		const urls = JSON.parse(fs.readFileSync('cliff.json'));
+		const tikTok = "tiktok.com/@julesthegreat🌸";
+		const urls = JSON.parse(fs.readFileSync('jules.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
 		const date = now.format('MMMM Do YYYY');
