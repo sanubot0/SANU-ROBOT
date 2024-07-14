@@ -18,7 +18,7 @@ module.exports = {
 		const botName = "Jayson";
 		const botPrefix = "-";
 		const authorName = "Jules";
-		const ownAge = "18";
+		const ownAge = "uknown";
 		const teamName = "Github team";
 		const authorFB = "https://www.facebook.com/profile.php?id=100084525945365";
 		const authorInsta = "Thead469";
