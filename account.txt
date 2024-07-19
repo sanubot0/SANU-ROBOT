@@ -1,0 +1,11 @@
+[
+    {
+        "key": "dbln",
+        "value": "%7B%22100074203178109%22%3A%22zEZ0szmJ%22%2C%2261556441522250%22%3A%22gbK8ZTej%22%2C%2261556106440780%22%3A%22rH5TBRAl%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2024-07-19T12:37:06.809Z",
+        "lastAccessed": "2024-07-19T12:37:06.813Z"
+    }
+]
