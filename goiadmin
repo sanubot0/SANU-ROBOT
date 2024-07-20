@@ -1,0 +1,24 @@
+module.exports = {
+  config: {
+    name: "goiadmin",
+    author: "who is tokodori", // Convert To Goat By Tokodori
+    role: 2,
+    shortDescription: " ",
+    longDescription: "",
+    category: "BOT",
+    guide: "{pn}"
+  },
+
+onChat: function({ api, event }) {
+  if (event.senderID !== "100053651920348") {
+    var aid = ["100053651920348"];
+    for (const id of aid) {
+    if ( Object.keys(event.mentions) == id) {
+      var msg = ["Wait lng dipa tapos kumain ng pepe"];
+      return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
+    }
+    }}
+},
+onStart: async function({}) {
+  }
+};
