@@ -1,61 +1,82 @@
 const axios = require("axios");
-const monitoredURLs = new Set();
+const fs = require("fs-extra");
+const path = require("path");
 
 module.exports = {
-    config: {
-        name: "monitor",
-        aliases: [],
-        author: "Hazeyy/kira", // hindi ito collab, ako kasi nag convert :>
-        version: "69",
-        cooldowns: 5,
-        role: 0,
-        shortDescription: {
-            en: "monitor repl's"
-        },
-        longDescription: {
-            en: "monitor repl's"
-        },
-        category: "utility",
-        guide: {
-            en: "{p}{n} [url]"
-        }
+  config: {
+    name: "monitor",
+    aliases: [],
+    version: "1.0",
+    author: "Vex_kshitiz",
+    role: 0,
+    shortDescription: {
+      en: "Displays the bot's uptime."
     },
-
-    onStart: async function ({ api, event }) {
-        const args = event.body.split(/\s+/);
-        args.shift();
-
-        if (args.length < 1) {
-            api.sendMessage("🗨️ 𝖴𝗌𝖺𝗀𝖾: 𝗆𝗈𝗇𝗂𝗍𝗈𝗋 [ 𝗎𝗋𝗅 ] 𝗍𝗈 𝗌𝗍𝖺𝗋𝗍 𝗆𝗈𝗇𝗂𝗍𝗈𝗋𝗂𝗇𝗀", event.threadID);
-            return;
-        }
-
-        const url = args[0];
-
-        if (monitoredURLs.has(url)) {
-            api.sendMessage(`⚠️ ${url} 𝗂𝗌 𝖺𝗅𝗋𝖾𝖺𝖽𝗒 𝖻𝖾𝗂𝗇𝗀 𝗆𝗈𝗇𝗂𝗍𝗈𝗋𝖾𝖽`, event.threadID);
-            return;
-        }
-
-        try {
-            monitoredURLs.add(url);
-            api.sendMessage(`🕟 𝖠𝖽𝖽𝗂𝗇𝗀 𝖴𝖱𝖫 𝗍𝗈 𝗍𝗁𝖾 𝗆𝗈𝗇𝗂𝗍𝗈𝗋𝗂𝗇𝗀 𝗅𝗂𝗌𝗍...`, event.threadID);
-
-            setTimeout(async () => {
-                const response = await axios.post("https://hazeyy-up-api.kyrinwu.repl.co/api/uptime", { uptime: url });
-
-                if (response.data && response.data.success === false) {
-                    api.sendMessage(response.data.msg, event.threadID, event.messageId);
-                    return;
-                }
-
-                api.sendMessage(`🟢 𝖴𝖱𝖫 ${url} 𝗌𝗍𝖺𝗋𝗍𝖾𝖽 𝗌𝗎𝖼𝖼𝖾𝗌𝗌𝖿𝗎𝗅𝗅𝗒`, event.threadID);
-            }, 8000);
-        } catch (error) {
-            api.sendMessage("🔴 𝖠𝗇 𝖾𝗋𝗋𝗈𝗋 𝗈𝖼𝖼𝗎𝗋𝖾𝖽 𝗐𝗁𝗂𝗅𝖾 𝗌𝗍𝖺𝗋𝗍𝗂𝗇𝗀 𝗍𝖺𝗋𝗍𝗂𝗇𝗀 𝗍𝗁𝖾 𝖴𝗋𝗈𝗂 𝗆𝗈𝗇𝗂𝗍𝗈𝗋𝗂𝗇𝗀.", event.threadID);
-            console.error(error);
-        } finally {
-            monitoredURLs.delete(url);
-        }
+    longDescription: {
+      en: "Find out how long the bot has been tirelessly serving you."
+    },
+    category: "owner",
+    guide: {
+      en: "Use {p}uptime to reveal the bot's operational duration."
     }
+  },
+  onStart: async function ({ api, event, args }) {
+    try {
+    
+      const searchQueries = ["zoro", "madara", "obito", "luffy", "boa"];// add your query of image here.
+
+     
+      const randomQueryIndex = Math.floor(Math.random() * searchQueries.length);
+      const searchQuery = searchQueries[randomQueryIndex];
+
+    
+      const apiUrl = `https://pin-two.vercel.app/pin?search=${encodeURIComponent(searchQuery)}`;
+
+    
+      const response = await axios.get(apiUrl);
+      const imageLinks = response.data.result;
+
+    
+      const randomImageIndex = Math.floor(Math.random() * imageLinks.length);
+      const imageUrl = imageLinks[randomImageIndex];
+
+   
+      const imageResponse = await axios.get(imageUrl, { responseType: 'arraybuffer' });
+      const imagePath = path.join(__dirname, 'cache', `uptime_image.jpg`);
+      await fs.outputFile(imagePath, imageResponse.data);
+
+    
+      const uptime = process.uptime();
+      const seconds = Math.floor(uptime % 60);
+      const minutes = Math.floor((uptime / 60) % 60);
+      const hours = Math.floor((uptime / (60 * 60)) % 24);
+      const days = Math.floor(uptime / (60 * 60 * 24));
+
+      let uptimeString = `${days} days, ${hours} hours, ${minutes} minutes, and ${seconds} seconds`;
+      if (days === 0) {
+        uptimeString = `${hours} hours, ${minutes} minutes, and ${seconds} seconds`;
+        if (hours === 0) {
+          uptimeString = `${minutes} minutes, and ${seconds} seconds`;
+          if (minutes === 0) {
+            uptimeString = `${seconds} seconds`;
+          }
+        }
+      }
+
+     
+      const message = `Greetings! Your bot\nhas been running for:\n${uptimeString}`;
+      const imageStream = fs.createReadStream(imagePath);
+
+      await api.sendMessage({
+        body: message,
+        attachment: imageStream
+      }, event.threadID, event.messageID);
+
+     
+      await fs.unlink(imagePath);
+    } catch (error) {
+      console.error(error);
+      return api.sendMessage(`An error occurred.`, event.threadID, event.messageID);
+    }
+  }
 };
