@@ -1,102 +1,119 @@
-let fontEnabled = true;
+const os = require("os");
+const fs = require("fs-extra");
 
-function formatFont(text) {
-	const fontMapping = {
-		a: "𝖺", b: "𝖻", c: "𝖼", d: "𝖽", e: "𝖾", f: "𝖿", g: "𝗀", h: "𝗁", i: "𝗂", j: "𝗃", k: "𝗄", l: "𝗅", m: "𝗆",
-		n: "𝗇", o: "𝗈", p: "𝗉", q: "𝗊", r: "𝗋", s: "𝗌", t: "𝗍", u: "𝗎", v: "𝗏", w: "𝗐", x: "𝗑", y: "𝗒", z: "𝗓",
-		A: "𝖠", B: "𝖡", C: "𝖢", D: "𝖣", E: "𝖤", F: "𝖥", G: "𝖦", H: "𝖧", I: "𝖨", J: "𝖩", K: "𝖪", L: "𝖫", M: "𝖬",
-		N: "𝖭", O: "𝖮", P: "𝖯", Q: "𝖰", R: "𝖱", S: "𝖲", T: "𝖳", U: "𝖴", V: "𝖵", W: "𝖶", X: "𝖷", Y: "𝖸", Z: "𝖹"
-	};
-
-	let formattedText = "";
-	for (const char of text) {
-		if (fontEnabled && char in fontMapping) {
-			formattedText += fontMapping[char];
-		} else {
-			formattedText += char;
-		}
-	}
-
-	return formattedText;
-}
-
-const os = require('os');
-const fs = require('fs').promises;
-const pidusage = require('pidusage');
-
-async function getStartTimestamp() {
-	try {
-		const startTimeStr = await fs.readFile('time.txt', 'utf8');
-		return parseInt(startTimeStr);
-	} catch (error) {
-		return Date.now();
-	}
-}
-
-async function saveStartTimestamp(timestamp) {
-	try {
-		await fs.writeFile('time.txt', timestamp.toString());
-	} catch (error) {
-		console.error('Error saving start timestamp:', error);
-	}
-}
-
-function byte2mb(bytes) {
-	const units = ['Bytes', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'];
-	let l = 0, n = parseInt(bytes, 10) || 0;
-	while (n >= 1024 && ++l) n = n / 1024;
-	return `${n.toFixed(n < 10 && l > 0 ? 1 : 0)} ${units[l]}`;
-}
-
-function getUptime(uptime) {
-	const days = Math.floor(uptime / (3600 * 24));
-	const hours = Math.floor((uptime % (3600 * 24)) / 3600);
-	const mins = Math.floor((uptime % 3600) / 60);
-	const seconds = Math.floor(uptime % 60);
-	const months = Math.floor(days / 30);
-		const remainingDays = days % 30;
-
-	return `Uptime: ${months} month(s}, ${remainingDays} day(s), ${hours} hour(s), ${mins} minute(s), and ${seconds} second(s)`;
-}
-
-async function onStart({ api, event }) {
-	const startTime = await getStartTimestamp();
-	const uptimeSeconds = Math.floor((Date.now() - startTime) / 1000);
-
-	const usage = await pidusage(process.pid);
-	const osInfo = {
-		platform: os.platform(),
-		architecture: os.arch()
-	};
-
-	const timeStart = Date.now();
-	const uptimeMessage = getUptime(uptimeSeconds);
-	const uid = "100084525945365";
-	const returnResult = `BOT has been working for ${uptimeMessage}\n\n❖ Cpu usage: ${usage.cpu.toFixed(1)}%\n❖ RAM usage: ${byte2mb(usage.memory)}\n❖ Cores: ${os.cpus().length}\n❖ Ping: ${Date.now() - timeStart}ms\n❖ Operating System Platform: ${osInfo.platform}\n❖ System CPU Architecture: ${osInfo.architecture}`;
-
-	await saveStartTimestamp(startTime);
-	return api.shareContact(formatFont(returnResult), uid, event.threadID);
-}
+const startTime = new Date(); // Moved outside onStart
 
 module.exports = {
-	config: {
-		name: 'uptime',
-		version: '2.1.0',
-		author: "cliff", // Do not change credits
-		countDown: 5,
-		role: 0,
-		shortDescription: 'shows how long uptime',
-		longDescription: {
-			en: ''
-		},
-		category: 'system',
-		guide: {
-			en: '{p}uptime'
-		}
-	},
-	byte2mb,
-	getStartTimestamp,
-	saveStartTimestamp,
-	getUptime,
-	onStart
+  config: {
+    name: "uptime",
+    aliases: ["up", "upt", "stats"],
+    author: "ArYAN",
+    countDown: 0,
+    role: 0,
+    category: "system",
+    longDescription: {
+      en: "Get System Information",
+    },
+  },
+  
+  onStart: async function ({ api, event, args, threadsData, usersData }) {
+    try {
+      const uptimeInSeconds = (new Date() - startTime) / 1000;
+
+      const seconds = uptimeInSeconds;
+      const days = Math.floor(seconds / (3600 * 24));
+      const hours = Math.floor((seconds % (3600 * 24)) / 3600);
+      const minutes = Math.floor((seconds % 3600) / 60);
+      const secondsLeft = Math.floor(seconds % 60);
+      const uptimeFormatted = `${days}d ${hours}h ${minutes}m ${secondsLeft}s`;
+
+      const loadAverage = os.loadavg();
+      const cpuUsage =
+        os
+          .cpus()
+          .map((cpu) => cpu.times.user)
+          .reduce((acc, curr) => acc + curr) / os.cpus().length;
+
+      const totalMemoryGB = os.totalmem() / 1024 ** 3;
+      const freeMemoryGB = os.freemem() / 1024 ** 3;
+      const usedMemoryGB = totalMemoryGB - freeMemoryGB;
+
+      const allUsers = await usersData.getAll();
+      const allThreads = await threadsData.getAll();
+      const currentDate = new Date();
+      const options = { year: "numeric", month: "numeric", day: "numeric" };
+      const date = currentDate.toLocaleDateString("en-US", options);
+      const time = currentDate.toLocaleTimeString("en-US", {
+        timeZone: "Asia/Kolkata",
+        hour12: true,
+      });
+
+      const timeStart = Date.now();
+      await api.sendMessage({
+        body: "🔎| checking........",
+      }, event.threadID);
+
+      const ping = Date.now() - timeStart;
+
+      let pingStatus = "⛔| 𝖡𝖺𝖽 𝖲𝗒𝗌𝗍𝖾𝗆";
+      if (ping < 1000) {
+        pingStatus = "✅| 𝖲𝗆𝗈𝗈𝗍𝗁 𝖲𝗒𝗌𝗍𝖾𝗆";
+      }
+      const systemInfo = `♡   ∩_∩
+ （„• ֊ •„)♡
+╭─∪∪────────────⟡
+│ 𝗨𝗣𝗧𝗜𝗠𝗘 𝗜𝗡𝗙𝗢
+├───────────────⟡
+│ 🤖 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢 
+│ 𝙽𝙰𝙼𝙴: 𝙶𝚘𝚊𝚝𝙱𝚘𝚝
+│ 𝙻𝙰𝙽𝙶: 𝙽𝚘𝚍𝚎𝚓𝚜
+│ 𝙿𝚁𝙵𝙸𝚇: .
+│ 𝙳𝙴𝚅𝚂: 𝙰𝚛𝚢 𝚃𝚎𝚊𝚖
+├───────────────⟡
+│ ⏰ 𝗥𝗨𝗡𝗧𝗜𝗠𝗘
+│  ${uptimeFormatted}
+├───────────────⟡
+│ 👑 𝗦𝗬𝗦𝗧𝗘𝗠 𝗜𝗡𝗙𝗢
+│𝙾𝚂: ${os.type()} ${os.arch()}
+│𝙻𝙰𝙽𝙶 𝚅𝙴𝚁: ${process.version}
+│𝙲𝙿𝚄 𝙼𝙾𝙳𝙴𝙻: ${os.cpus()[0].model}
+│𝚂𝚃𝙾𝚁𝙰𝙶𝙴: ${usedMemoryGB.toFixed(2)} GB / ${totalMemoryGB.toFixed(2)} GB
+│𝙲𝙿𝚄 𝚄𝚂𝙰𝙶𝙴: ${cpuUsage.toFixed(1)}%
+│𝚁𝙰𝙼 𝚄𝚂𝙶𝙴: ${process.memoryUsage().heapUsed / 1024 / 1024} MB;
+├───────────────⟡
+│ ✅ 𝗢𝗧𝗛𝗘𝗥 𝗜𝗡𝗙𝗢
+│𝙳𝙰𝚃𝙴: ${date}
+│𝚃𝙸𝙼𝙴: ${time}
+│𝚄𝚂𝙴𝚁𝚂: ${allUsers.length}
+│𝚃𝙷𝚁𝙴𝙰𝙳𝚂: ${allThreads.length}
+│𝙿𝙸𝙽𝙶: ${ping}𝚖𝚜
+│𝚂𝚃𝙰𝚃𝚄𝚂: ${pingStatus}
+╰───────────────⟡
+`;
+
+      api.sendMessage(
+        {
+          body: systemInfo,
+        },
+        event.threadID,
+        (err, messageInfo) => {
+          if (err) {
+            console.error("Error sending message with attachment:", err);
+          } else {
+            console.log(
+              "Message with attachment sent successfully:",
+              messageInfo,
+            );
+          }
+        },
+      );
+    } catch (error) {
+      console.error("Error retrieving system information:", error);
+      api.sendMessage(
+        "Unable to retrieve system information.",
+        event.threadID,
+        event.messageID,
+      );
+    }
+  },
 };
