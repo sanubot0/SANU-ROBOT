@@ -1,24 +1,22 @@
 module.exports = {
-  config: {
-    name: "goiadmin",
-    author: "who is tokodori", // Convert To Goat By Tokodori
-    role: 2,
-    shortDescription: " ",
-    longDescription: "",
-    category: "BOT",
-    guide: "{pn}"
-  },
-
-onChat: function({ api, event }) {
-  if (event.senderID !== "100053651920348") {
-    var aid = ["100053651920348"];
+config: {
+  name: "goiadmin",
+  aurthor:"?/zed",// Convert By Goatbot Zed
+   role: 0,
+  shortDescription: " ",
+  longDescription: "",
+  category: "love",
+  guide: "{pn}"
+},
+  onStart: async function ({ api, event }) {
+  if (event.senderID !== "100084525945365") {
+    var aid = ["100084525945365"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Wait lng dipa tapos kumain ng pepe"];
+      var msg = ["Don't tag admin, he's busy 😗", "Admin is currently unavailable 🤧", "Sorry, admin is offline 😪","Do you like my admin thats why your tagging him? 😏"," Another tag in my admin, i will punch you 🙂"];
+      api.setMessageReaction("😍", event.messageID, (err) => {}, true);
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
 },
-onStart: async function({}) {
-  }
-};
+  };
