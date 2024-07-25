@@ -1,1 +1,409 @@
-function _0x439b(_0x2012a5,_0x2b7eac){const _0x1015a8=_0x5e2d();return _0x439b=function(_0x555091,_0x4e1210){_0x555091=_0x555091-(0x19*0x65+0x118c+-0x1a31);let _0xd7bd3a=_0x1015a8[_0x555091];return _0xd7bd3a;},_0x439b(_0x2012a5,_0x2b7eac);}const _0x1ba471=_0x439b;function _0x5e2d(){const _0x23a5e1=['existsSync','get\x20more\x20i','\x20\x20|\x20Ohio03','nged\x0a•\x20The','dQLLV','body','r\x20b\x20or\x20c','whuZm','━━━━━━━━━━','nformation','roleText0s','━\x0a»\x20Usage\x20','y\x20|\x20<page\x20','Ohio03','tent\x20insid','ulBxa','CwPXa','nkalV','\x0a•\x20The\x20con','InDzJ','longDescri','KhVXC','GoatBot','{pn}\x20[để\x20t','Xem\x20cách\x20d','push','46165QsOVDE','rống\x20|\x20<số','pop','roleText2','nside\x20[a|b','fs-extra','»\x20Descript','isArray','name','5\x0a»\x20Role:\x20','Xem\x20cách\x20s','writeFileS','<tên\x20lệnh>','category','⌈\x20Elysia\x20❈','\x20các\x20lệnh','guide','data.lang','ption','info','ion:\x20%2\x0a»\x20','names','.js','ZiqMP','toUpperCas','vzxRO','uthor:\x20%8\x0a','MTmAu','pvVjq','Version:\x20%','author','oup:\x20%4\x0a»\x20','ử\x20dụng\x20của','utils','\x20about\x20a\x20c','per\x20comman','%6\x0a»\x20Time\x20','⇒\x20Use\x20{pn}','length','ommand.\x0a','|c]\x20is\x20a\x20o','arraybuffe','includes','zqNUi','doNotHave','CyaMX','roleText1s','━━━','━\x0a»\x20Notes:','object','number>\x20|\x20','%1⇒\x20Total:','GHqnN','\x20<cmd>\x20to\x20','TUlIk','e\x20<XXXXX>\x20','sjKqp','CUmyl','tdhAJ','cdEji','2\x20(Admin\x20b','36QfsKrZ','WMqyP','ot)','fKCnE','size','get','ync','bnRoU','exports','njIDZ','getInfoCom','ame>]','808188oahVcq','mNWjQ','role','Do\x20not\x20hav','Stream','Page\x20%1\x20do','can\x20be\x20cha','string','PlVvp','kcjBv','threadID','KpNLI','setRole','\x20content\x20i','1\x22\x20does\x20no','cmds','path','33736RZCWKp','mkdirSync','Command\x20\x22%','ors)','1784ahRINt','languages','roleText0','createRead','LDzfo','zEDms','e,\x20group\x20a','RiWNw','findIndex','axios','5023161irTcOo','s:\x20%3\x0a»\x20Ot','dministrat','sort','View\x20comma','rs)','lxQXc','40mWmSlp','guide:\x0a%9\x0a','2094228Zpsibc','0\x20(All\x20use','help','aliases','toLowerCas','slice','TaTjx','etRole','144315GrABlz','rObLV','<command\x20n','4452QIuSyd','━━━\x20\x20❖\x20\x20━━','reply','eVggK','60MOfqpe','t\x20exist','Found','from','data','in\x20your\x20gr','{pn}\x20[empt','iTlCX','replace','d:\x20%7s\x0a»\x20A','1\x20(Group\x20a','e,\x20all\x20use','\x20trang>\x20|\x20','join','LlEld','10.0','\x20%3\x20cmds.\x0a','Other\x20name','config','es\x20not\x20exi','some','split','0\x20(set\x20rol','rnMLH','countDown','MXQzu','her\x20names\x20','sortHelp','mand','commandNot','roleText1','attachment','version','1\x20(set\x20rol','language','17TryFPq','mbgPu','ùng\x20lệnh','nd\x20usage','settings','156481eHfGiU','filter','RVzTj'];_0x5e2d=function(){return _0x23a5e1;};return _0x5e2d();}(function(_0x528b6e,_0x16ea97){const _0x17f875=_0x439b,_0x58e161=_0x528b6e();while(!![]){try{const _0x1dd32a=-parseInt(_0x17f875(0x16e))/(0xb0d+-0x21e6*-0x1+0x2cf2*-0x1)*(-parseInt(_0x17f875(0x1ea))/(0xf8f+0x2*-0xa3+0x11*-0xd7))+-parseInt(_0x17f875(0x144))/(0x1597+-0x62*0x11+-0xf12)*(parseInt(_0x17f875(0x1cd))/(-0x1d3f*0x1+0x26c*0xe+-0x29*0x1d))+-parseInt(_0x17f875(0x13a))/(-0x113*-0x1f+0x1f2c+-0x4074)*(parseInt(_0x17f875(0x1d9))/(0x20d6+0x2f3*-0xd+0x1*0x587))+-parseInt(_0x17f875(0x190))/(0x8*0xf4+0x442+-0xbdb)*(parseInt(_0x17f875(0x1ee))/(0x7*-0x577+0xa3c+0x1c0d))+parseInt(_0x17f875(0x13c))/(-0x17*0xdd+0xddf+-0x43*-0x17)*(-parseInt(_0x17f875(0x14b))/(0x236c+0x1*-0x244d+0xeb))+parseInt(_0x17f875(0x1f8))/(-0x352+0x1e3e+-0x3d7*0x7)+-parseInt(_0x17f875(0x147))/(0x57a*-0x2+-0x39*-0x9+0x31*0x2f)*(-parseInt(_0x17f875(0x173))/(-0x4d4+-0x23e5+-0x1463*-0x2));if(_0x1dd32a===_0x16ea97)break;else _0x58e161['push'](_0x58e161['shift']());}catch(_0x49c40c){_0x58e161['push'](_0x58e161['shift']());}}}(_0x5e2d,0x4*-0x59b3d+-0x2*-0xac007+0x2*0x6ceff));const fs=require(_0x1ba471(0x195)),axios=require(_0x1ba471(0x1f7)),path=require(_0x1ba471(0x1e9)),{getPrefix}=global[_0x1ba471(0x1b1)],{commands,aliases}=global[_0x1ba471(0x18c)],doNotDelete=_0x1ba471(0x19e)+_0x1ba471(0x178)+'\x20⌋',characters=_0x1ba471(0x17e)+_0x1ba471(0x1bf);module[_0x1ba471(0x1d5)]={'config':{'name':_0x1ba471(0x13e),'version':_0x1ba471(0x15a),'author':_0x1ba471(0x183),'countDown':0x5,'role':0x0,'shortDescription':{'vi':_0x1ba471(0x18e)+_0x1ba471(0x170),'en':_0x1ba471(0x1fc)+_0x1ba471(0x171)},'longDescription':{'vi':_0x1ba471(0x19a)+_0x1ba471(0x1b0)+_0x1ba471(0x19f),'en':_0x1ba471(0x1fc)+_0x1ba471(0x171)},'category':_0x1ba471(0x1a3),'guide':{'vi':_0x1ba471(0x18d)+_0x1ba471(0x191)+_0x1ba471(0x157)+_0x1ba471(0x19c)+']','en':_0x1ba471(0x151)+_0x1ba471(0x182)+_0x1ba471(0x1c2)+_0x1ba471(0x146)+_0x1ba471(0x1d8)},'priority':0x1},'langs':{'en':{'help':_0x1ba471(0x1c3)+_0x1ba471(0x15b)+_0x1ba471(0x1b5)+_0x1ba471(0x1c5)+_0x1ba471(0x177)+_0x1ba471(0x17f)+_0x1ba471(0x1b2)+_0x1ba471(0x1b7),'commandNotFound':_0x1ba471(0x1ec)+_0x1ba471(0x1e7)+_0x1ba471(0x14c),'getInfoCommand':_0x1ba471(0x196)+_0x1ba471(0x1a4)+_0x1ba471(0x15c)+_0x1ba471(0x1f9)+_0x1ba471(0x165)+_0x1ba471(0x150)+_0x1ba471(0x1af)+_0x1ba471(0x1ad)+_0x1ba471(0x199)+_0x1ba471(0x1b4)+_0x1ba471(0x1b3)+_0x1ba471(0x154)+_0x1ba471(0x1aa)+_0x1ba471(0x148)+_0x1ba471(0x181)+_0x1ba471(0x13b)+_0x1ba471(0x148)+_0x1ba471(0x1c0)+_0x1ba471(0x188)+_0x1ba471(0x184)+_0x1ba471(0x1c7)+_0x1ba471(0x1df)+_0x1ba471(0x179)+_0x1ba471(0x1e6)+_0x1ba471(0x194)+_0x1ba471(0x1b8)+_0x1ba471(0x17c),'doNotHave':_0x1ba471(0x1dc)+'e','roleText0':_0x1ba471(0x13d)+_0x1ba471(0x138),'roleText1':_0x1ba471(0x155)+_0x1ba471(0x1fa)+_0x1ba471(0x1ed),'roleText2':_0x1ba471(0x1cc)+_0x1ba471(0x1cf),'roleText0setRole':_0x1ba471(0x161)+_0x1ba471(0x156)+_0x1ba471(0x138),'roleText1setRole':_0x1ba471(0x16c)+_0x1ba471(0x1f4)+_0x1ba471(0x1fa)+_0x1ba471(0x1ed),'pageNotFound':_0x1ba471(0x1de)+_0x1ba471(0x15e)+'st'}},'onStart':async function({message:_0x5583a0,args:_0x57f163,event:_0x29b59f,threadsData:_0x39a089,getLang:_0x123c01,role:_0x22e532}){const _0x7b8430=_0x1ba471,_0x25f41e={'MTmAu':_0x7b8430(0x1a1),'mNWjQ':_0x7b8430(0x1ef),'cdEji':_0x7b8430(0x1e8),'KhVXC':function(_0x3d3ddc,_0x38a29b){return _0x3d3ddc(_0x38a29b);},'KpNLI':_0x7b8430(0x198),'PlVvp':_0x7b8430(0x19d),'InDzJ':function(_0x25b8af,_0x2a6657){return _0x25b8af==_0x2a6657;},'tdhAJ':function(_0x363d78,_0x186206){return _0x363d78>_0x186206;},'nkalV':function(_0x33769f,_0x24b326){return _0x33769f<_0x24b326;},'dQLLV':function(_0x3ab498,_0x2313f4,_0x72b8d1,_0x438f2a,_0x1a8ae1,_0x4c82fb,_0x5b0a93){return _0x3ab498(_0x2313f4,_0x72b8d1,_0x438f2a,_0x1a8ae1,_0x4c82fb,_0x5b0a93);},'TaTjx':_0x7b8430(0x13e),'ulBxa':function(_0x159ec5,_0x43859d){return _0x159ec5==_0x43859d;},'ZiqMP':function(_0x4524a2,_0xa6c367){return _0x4524a2>_0xa6c367;},'rnMLH':function(_0x3c4da7,_0x1b6c31){return _0x3c4da7<_0x1b6c31;},'CwPXa':function(_0x6b93a7,_0x46e0ee,_0x386fd1){return _0x6b93a7(_0x46e0ee,_0x386fd1);},'kcjBv':_0x7b8430(0x168)+_0x7b8430(0x14d),'fKCnE':function(_0x16c0ed,_0xc8d156){return _0x16c0ed!=_0xc8d156;},'eVggK':_0x7b8430(0x1bc),'GHqnN':function(_0x5874f2,_0x5ab949){return _0x5874f2==_0x5ab949;},'WMqyP':function(_0x30d323,_0x5985e3){return _0x30d323(_0x5985e3);},'pvVjq':_0x7b8430(0x180)+_0x7b8430(0x143),'CyaMX':function(_0x1705f6,_0x12cc43){return _0x1705f6(_0x12cc43);},'mbgPu':_0x7b8430(0x1f0),'vzxRO':function(_0x50a468,_0x4fd9ff){return _0x50a468(_0x4fd9ff);},'lxQXc':_0x7b8430(0x1be)+_0x7b8430(0x143),'rObLV':_0x7b8430(0x169),'sjKqp':_0x7b8430(0x193),'RiWNw':function(_0x148de5,_0x39184d){return _0x148de5||_0x39184d;},'bnRoU':_0x7b8430(0x1e0),'njIDZ':function(_0x3c598d,_0x53c6fc){return _0x3c598d+_0x53c6fc;},'MXQzu':function(_0x142571,_0x4b3237,_0x590283,_0xfaeaf,_0x5c2638,_0x281955,_0xb43390,_0x409290,_0x5ab7f2,_0x52afcf,_0x56b9b4){return _0x142571(_0x4b3237,_0x590283,_0xfaeaf,_0x5c2638,_0x281955,_0xb43390,_0x409290,_0x5ab7f2,_0x52afcf,_0x56b9b4);},'zqNUi':_0x7b8430(0x1d7)+_0x7b8430(0x167),'CUmyl':function(_0x557f8f,_0x5abbd7){return _0x557f8f||_0x5abbd7;},'TUlIk':function(_0x41b536,_0x2bcd21){return _0x41b536==_0x2bcd21;},'iTlCX':_0x7b8430(0x1c1),'RVzTj':function(_0x5b98fd,_0x163f96){return _0x5b98fd<_0x163f96;},'LlEld':_0x7b8430(0x1b9)+'r'},_0x428ad7=await _0x39a089[_0x7b8430(0x1d2)](_0x29b59f[_0x7b8430(0x1e3)],_0x25f41e[_0x7b8430(0x1ab)])||global[_0x7b8430(0x18c)][_0x7b8430(0x15d)][_0x7b8430(0x16d)];let _0xe01c28={};const _0x313521=path[_0x7b8430(0x158)](__dirname,'..','..',_0x25f41e[_0x7b8430(0x1da)],_0x25f41e[_0x7b8430(0x1cb)],_0x428ad7+_0x7b8430(0x1a6));if(fs[_0x7b8430(0x176)](_0x313521))_0xe01c28=_0x25f41e[_0x7b8430(0x18b)](require,_0x313521);const {threadID:_0x44f15f}=_0x29b59f,_0x5ba4b8=await _0x39a089[_0x7b8430(0x1d2)](_0x44f15f),_0x167fdd=_0x25f41e[_0x7b8430(0x18b)](getPrefix,_0x44f15f);let _0x1529c6=_0x5ba4b8[_0x7b8430(0x172)][_0x7b8430(0x166)]||_0x25f41e[_0x7b8430(0x1e4)];if(![_0x25f41e[_0x7b8430(0x1e1)],_0x25f41e[_0x7b8430(0x1e4)]][_0x7b8430(0x1ba)](_0x1529c6))_0x1529c6=_0x25f41e[_0x7b8430(0x1e4)];const _0x5d539e=(_0x57f163[-0x2473+-0xf7b+0x33ee]||'')[_0x7b8430(0x140)+'e'](),_0x35cb27=commands[_0x7b8430(0x1d2)](_0x5d539e)||commands[_0x7b8430(0x1d2)](aliases[_0x7b8430(0x1d2)](_0x5d539e));if(!_0x35cb27&&!_0x57f163[-0x1131+0x244a+-0x1319]||!_0x25f41e[_0x7b8430(0x18b)](isNaN,_0x57f163[-0x4b1*-0x6+0x4d9*0x8+0x1*-0x42ee])){const _0x2dd71e=[];let _0xf78d0f='';if(_0x25f41e[_0x7b8430(0x189)](_0x1529c6,_0x25f41e[_0x7b8430(0x1e4)])){for(const [,_0x4f8e41]of commands){if(_0x25f41e[_0x7b8430(0x1ca)](_0x4f8e41[_0x7b8430(0x15d)][_0x7b8430(0x1db)],-0x1605+0x78b+0xe7b)&&_0x25f41e[_0x7b8430(0x187)](_0x22e532,_0x4f8e41[_0x7b8430(0x15d)][_0x7b8430(0x1db)]))continue;if(_0x2dd71e[_0x7b8430(0x15f)](_0x4b9666=>_0x4b9666[_0x7b8430(0x19d)]==_0x4f8e41[_0x7b8430(0x15d)][_0x7b8430(0x19d)][_0x7b8430(0x140)+'e']())){const _0x56f04d=_0x2dd71e[_0x7b8430(0x1f6)](_0x39b82c=>_0x39b82c[_0x7b8430(0x19d)]==_0x4f8e41[_0x7b8430(0x15d)][_0x7b8430(0x19d)][_0x7b8430(0x140)+'e']());_0x2dd71e[_0x56f04d][_0x7b8430(0x1a5)][_0x7b8430(0x18f)](_0x4f8e41[_0x7b8430(0x15d)][_0x7b8430(0x198)]);}else _0x2dd71e[_0x7b8430(0x18f)]({'category':_0x4f8e41[_0x7b8430(0x15d)][_0x7b8430(0x19d)][_0x7b8430(0x140)+'e'](),'names':[_0x4f8e41[_0x7b8430(0x15d)][_0x7b8430(0x198)]]});}_0x2dd71e[_0x7b8430(0x1fb)]((_0x3c923a,_0x207262)=>_0x3c923a[_0x7b8430(0x19d)]<_0x207262[_0x7b8430(0x19d)]?-(0x1e87+0x229b+0x4121*-0x1):0x168*-0x1+-0x6*-0x92+-0x203*0x1);for(const _0x471b34 of _0x2dd71e){const _0x31eff0='⌈\x20'+_0x471b34[_0x7b8430(0x19d)][_0x7b8430(0x1a8)+'e']()+'\x20⌋';_0x471b34[_0x7b8430(0x1a5)][_0x7b8430(0x1fb)](),_0xf78d0f+=_0x31eff0+'\x0a'+_0x471b34[_0x7b8430(0x1a5)][_0x7b8430(0x158)](',\x20')+'\x0a\x0a';}_0x5583a0[_0x7b8430(0x149)](_0x25f41e[_0x7b8430(0x17a)](_0x123c01,_0x25f41e[_0x7b8430(0x142)],_0xf78d0f,characters,commands[_0x7b8430(0x1d1)],_0x167fdd,doNotDelete));}else{if(_0x25f41e[_0x7b8430(0x185)](_0x1529c6,_0x25f41e[_0x7b8430(0x1e1)])){for(const [,_0x333d90]of commands){if(_0x25f41e[_0x7b8430(0x1a7)](_0x333d90[_0x7b8430(0x15d)][_0x7b8430(0x1db)],0x1*0x10b+-0x1*0x183b+0x1731)&&_0x25f41e[_0x7b8430(0x162)](_0x22e532,_0x333d90[_0x7b8430(0x15d)][_0x7b8430(0x1db)]))continue;if(_0x2dd71e[_0x7b8430(0x15f)](_0x1de810=>_0x1de810[_0x7b8430(0x19d)]==_0x333d90[_0x7b8430(0x15d)][_0x7b8430(0x19d)][_0x7b8430(0x140)+'e']())){const _0x4b3c3c=_0x2dd71e[_0x7b8430(0x1f6)](_0x461571=>_0x461571[_0x7b8430(0x19d)]==_0x333d90[_0x7b8430(0x15d)][_0x7b8430(0x19d)][_0x7b8430(0x140)+'e']());_0x2dd71e[_0x4b3c3c][_0x7b8430(0x1a5)][_0x7b8430(0x18f)](_0x333d90[_0x7b8430(0x15d)][_0x7b8430(0x198)]);}else _0x2dd71e[_0x7b8430(0x18f)]({'category':_0x333d90[_0x7b8430(0x15d)][_0x7b8430(0x19d)][_0x7b8430(0x140)+'e'](),'names':[_0x333d90[_0x7b8430(0x15d)][_0x7b8430(0x198)]]});}_0x2dd71e[_0x7b8430(0x1fb)]((_0x2b98c8,_0x38e0b5)=>_0x2b98c8[_0x7b8430(0x19d)]<_0x38e0b5[_0x7b8430(0x19d)]?-(0x1555+-0x3*-0x9a2+0x10be*-0x3):-0xc74+0x4*-0x380+0x1a75);for(const _0x5ee754 of _0x2dd71e){const _0x4d972f='⌈\x20'+_0x5ee754[_0x7b8430(0x19d)][_0x7b8430(0x1a8)+'e']()+'\x20⌋';_0x5ee754[_0x7b8430(0x1a5)][_0x7b8430(0x1fb)](),_0xf78d0f+=_0x4d972f+'\x0a'+_0x5ee754[_0x7b8430(0x1a5)][_0x7b8430(0x158)](',\x20')+'\x0a\x0a';}_0x5583a0[_0x7b8430(0x149)](_0x25f41e[_0x7b8430(0x17a)](_0x123c01,_0x25f41e[_0x7b8430(0x142)],_0xf78d0f,characters,commands[_0x7b8430(0x1d1)],_0x167fdd,doNotDelete));}}}else{if(!_0x35cb27&&_0x57f163[0x398+0x20eb*-0x1+0x1d53])return _0x5583a0[_0x7b8430(0x149)](_0x25f41e[_0x7b8430(0x186)](_0x123c01,_0x25f41e[_0x7b8430(0x1e2)],_0x57f163[-0xc35+0x1b0c+-0xed7]));else{const _0x25d307=_0x35cb27[_0x7b8430(0x15d)],_0x3884b6=_0x25d307[_0x7b8430(0x1ae)],_0x239c3d=_0x25d307[_0x7b8430(0x198)][_0x7b8430(0x1a8)+'e'](),_0x21b961=characters+'\x0a'+_0x239c3d+'\x0a'+characters,_0x4094c9=_0xe01c28[_0x25d307[_0x7b8430(0x198)]]?.[_0x7b8430(0x18a)+_0x7b8430(0x1a2)];let _0x2a5f06;if(_0x25f41e[_0x7b8430(0x1d0)](_0x4094c9,undefined))_0x2a5f06=_0x25f41e[_0x7b8430(0x186)](checkLangObject,_0x4094c9,_0x428ad7);else{if(_0x25d307[_0x7b8430(0x18a)+_0x7b8430(0x1a2)])_0x2a5f06=_0x25f41e[_0x7b8430(0x186)](checkLangObject,_0x25d307[_0x7b8430(0x18a)+_0x7b8430(0x1a2)],_0x428ad7);}const _0x94fa2=_0x25d307[_0x7b8430(0x13f)]?_0x25d307[_0x7b8430(0x13f)][_0x7b8430(0x158)](',\x20'):_0x25f41e[_0x7b8430(0x18b)](_0x123c01,_0x25f41e[_0x7b8430(0x14a)]),_0x4d0da4=_0x5ba4b8[_0x7b8430(0x14f)][_0x7b8430(0x13f)]?(_0x5ba4b8[_0x7b8430(0x14f)][_0x7b8430(0x13f)][_0x25d307[_0x7b8430(0x198)]]||[])[_0x7b8430(0x158)](',\x20'):_0x25f41e[_0x7b8430(0x18b)](_0x123c01,_0x25f41e[_0x7b8430(0x14a)]);let _0x168e67=_0x25d307[_0x7b8430(0x1db)],_0xc64aab=![];_0x5ba4b8[_0x7b8430(0x14f)][_0x7b8430(0x1e5)]?.[_0x25d307[_0x7b8430(0x198)]]&&(_0x168e67=_0x5ba4b8[_0x7b8430(0x14f)][_0x7b8430(0x1e5)][_0x25d307[_0x7b8430(0x198)]],_0xc64aab=!![]);const _0x6a029d=_0x25f41e[_0x7b8430(0x1c4)](_0x168e67,0xd96+-0x114d+0x3b7)?_0xc64aab?_0x25f41e[_0x7b8430(0x1ce)](_0x123c01,_0x25f41e[_0x7b8430(0x1ac)]):_0x25f41e[_0x7b8430(0x1bd)](_0x123c01,_0x25f41e[_0x7b8430(0x16f)]):_0x25f41e[_0x7b8430(0x1c4)](_0x168e67,0x1727+0x1*-0x1331+0x1*-0x3f5)?_0xc64aab?_0x25f41e[_0x7b8430(0x1a9)](_0x123c01,_0x25f41e[_0x7b8430(0x139)]):_0x25f41e[_0x7b8430(0x1bd)](_0x123c01,_0x25f41e[_0x7b8430(0x145)]):_0x25f41e[_0x7b8430(0x1a9)](_0x123c01,_0x25f41e[_0x7b8430(0x1c8)]);let _0x3cb443=_0x25d307[_0x7b8430(0x1a0)]?.[_0x428ad7]||_0x25d307[_0x7b8430(0x1a0)]?.['en'];if(_0x25f41e[_0x7b8430(0x185)](_0x3cb443,undefined))_0x3cb443=_0xe01c28[_0x25d307[_0x7b8430(0x198)]]?.[_0x7b8430(0x1a0)]?.[_0x428ad7]||_0xe01c28[_0x25d307[_0x7b8430(0x198)]]?.[_0x7b8430(0x1a0)]?.['en'];_0x3cb443=_0x25f41e[_0x7b8430(0x1f5)](_0x3cb443,{'body':''});if(_0x25f41e[_0x7b8430(0x1c4)](typeof _0x3cb443,_0x25f41e[_0x7b8430(0x1d4)]))_0x3cb443={'body':_0x3cb443};const _0x3e1a40=_0x3cb443[_0x7b8430(0x17b)][_0x7b8430(0x153)](/\{prefix\}|\{p\}/g,_0x167fdd)[_0x7b8430(0x153)](/\{name\}|\{n\}/g,_0x25d307[_0x7b8430(0x198)])[_0x7b8430(0x153)](/\{pn\}/g,_0x25f41e[_0x7b8430(0x1d6)](_0x167fdd,_0x25d307[_0x7b8430(0x198)])),_0x894823={'body':_0x25f41e[_0x7b8430(0x164)](_0x123c01,_0x25f41e[_0x7b8430(0x1bb)],_0x21b961,_0x2a5f06,_0x94fa2,_0x4d0da4,_0x25d307[_0x7b8430(0x16b)],_0x6a029d,_0x25d307[_0x7b8430(0x163)]||-0xf7b+0x9*0x35d+-0xec9,_0x25f41e[_0x7b8430(0x1c9)](_0x3884b6,''),_0x3e1a40)};if(_0x3cb443[_0x7b8430(0x16a)]){if(_0x25f41e[_0x7b8430(0x1c6)](typeof _0x3cb443[_0x7b8430(0x16a)],_0x25f41e[_0x7b8430(0x152)])){_0x894823[_0x7b8430(0x16a)]=[];for(const _0x5a9ef7 in _0x3cb443[_0x7b8430(0x16a)]){if(!fs[_0x7b8430(0x176)](_0x5a9ef7)){const _0x581ee3=_0x5a9ef7[_0x7b8430(0x160)]('/')[_0x7b8430(0x174)](_0x5e729d=>_0x5e729d!='');_0x581ee3[_0x7b8430(0x192)]();for(let _0x5d70a9=0x11*0x57+-0x1388+0xdc1;_0x25f41e[_0x7b8430(0x175)](_0x5d70a9,_0x581ee3[_0x7b8430(0x1b6)]);_0x5d70a9++){const _0xd8f808=_0x581ee3[_0x7b8430(0x141)](-0xb*0x1+-0x2b*0x4c+-0x3*-0x445,_0x25f41e[_0x7b8430(0x1d6)](_0x5d70a9,-0x1421*-0x1+0x2530+-0x3950))[_0x7b8430(0x158)]('/');if(!fs[_0x7b8430(0x176)](_0xd8f808))fs[_0x7b8430(0x1eb)](_0xd8f808);}const _0x350a93=await axios[_0x7b8430(0x1d2)](_0x3cb443[_0x7b8430(0x16a)][_0x5a9ef7],{'responseType':_0x25f41e[_0x7b8430(0x159)]});fs[_0x7b8430(0x19b)+_0x7b8430(0x1d3)](_0x5a9ef7,Buffer[_0x7b8430(0x14e)](_0x350a93[_0x7b8430(0x14f)]));}_0x894823[_0x7b8430(0x16a)][_0x7b8430(0x18f)](fs[_0x7b8430(0x1f1)+_0x7b8430(0x1dd)](_0x5a9ef7));}}}return _0x5583a0[_0x7b8430(0x149)](_0x894823);}}}};function checkLangObject(_0x29dadf,_0xc8b40e){const _0x5df364=_0x1ba471,_0x51c19e={'LDzfo':function(_0x791c88,_0x54b379){return _0x791c88==_0x54b379;},'whuZm':_0x5df364(0x1e0),'zEDms':_0x5df364(0x1c1)};if(_0x51c19e[_0x5df364(0x1f2)](typeof _0x29dadf,_0x51c19e[_0x5df364(0x17d)]))return _0x29dadf;if(_0x51c19e[_0x5df364(0x1f2)](typeof _0x29dadf,_0x51c19e[_0x5df364(0x1f3)])&&!Array[_0x5df364(0x197)](_0x29dadf))return _0x29dadf[_0xc8b40e]||_0x29dadf['en']||'';return'';}
+const fs = require("fs-extra");
+const axios = require("axios");
+const path = require("path");
+const { getPrefix } = global.utils;
+const { commands, aliases } = global.GoatBot;
+const doNotDelete = "[ 🌸 |LEI GOAT V2 ]";
+/**
+* @author NTKhang
+* @author: do not delete it
+* @message if you delete or edit it you will get a global ban
+*/
+
+module.exports = {
+	config: {
+		name: "help",
+		version: "1.21",
+		author: "NTKhang",
+		countDown: 5,
+		role: 0,
+		description: {
+			vi: "Xem cách sử dụng của các lệnh",
+			en: "View command usage"
+		},
+		category: "info",
+		guide: {
+			vi: "   {pn} [để trống | <số trang> | <tên lệnh>]"
+				+ "\n   {pn} <command name> [-u | usage | -g | guide]: chỉ hiển thị phần hướng dẫn sử dụng lệnh"
+				+ "\n   {pn} <command name> [-i | info]: chỉ hiển thị phần thông tin về lệnh"
+				+ "\n   {pn} <command name> [-r | role]: chỉ hiển thị phần quyền hạn của lệnh"
+				+ "\n   {pn} <command name> [-a | alias]: chỉ hiển thị phần tên viết tắt của lệnh",
+			en: "{pn} [empty | <page number> | <command name>]"
+				+ "\n   {pn} <command name> [-u | usage | -g | guide]: only show command usage"
+				+ "\n   {pn} <command name> [-i | info]: only show command info"
+				+ "\n   {pn} <command name> [-r | role]: only show command role"
+				+ "\n   {pn} <command name> [-a | alias]: only show command alias"
+		},
+		priority: 1
+	},
+
+	langs: {
+		vi: {
+			help: "╭─────────────⭓"
+				+ "\n%1"
+				+ "\n├─────⭔"
+				+ "\n│ Trang [ %2/%3 ]"
+				+ "\n│ Hiện tại bot có %4 lệnh có thể sử dụng"
+				+ "\n│ » Gõ %5help <số trang> để xem danh sách các lệnh"
+				+ "\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó"
+				+ "\n├────────⭔"
+				+ "\n│ %6"
+				+ "\n╰─────────────⭓",
+			help2: "%1├───────⭔"
+				+ "\n│ » Hiện tại bot có %2 lệnh có thể sử dụng"
+				+ "\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó"
+				+ "\n│ %4"
+				+ "\n╰─────────────⭓",
+			commandNotFound: "Lệnh \"%1\" không tồn tại",
+			getInfoCommand: "╭── NAME ────⭓"
+				+ "\n│ %1"
+				+ "\n├── INFO"
+				+ "\n│ Mô tả: %2"
+				+ "\n│ Các tên gọi khác: %3"
+				+ "\n│ Các tên gọi khác trong nhóm bạn: %4"
+				+ "\n│ Version: %5"
+				+ "\n│ Role: %6"
+				+ "\n│ Thời gian mỗi lần dùng lệnh: %7s"
+				+ "\n│ Author: %8"
+				+ "\n├── USAGE"
+				+ "\n│%9"
+				+ "\n├── NOTES"
+				+ "\n│ Nội dung bên trong <XXXXX> là có thể thay đổi"
+				+ "\n│ Nội dung bên trong [a|b|c] là a hoặc b hoặc c"
+				+ "\n╰──────⭔",
+			onlyInfo: "╭── INFO ────⭓"
+				+ "\n│ Tên lệnh: %1"
+				+ "\n│ Mô tả: %2"
+				+ "\n│ Các tên gọi khác: %3"
+				+ "\n│ Các tên gọi khác trong nhóm bạn: %4"
+				+ "\n│ Version: %5"
+				+ "\n│ Role: %6"
+				+ "\n│ Thời gian mỗi lần dùng lệnh: %7s"
+				+ "\n│ Author: %8"
+				+ "\n╰─────────────⭓",
+			onlyUsage: "╭── USAGE ────⭓"
+				+ "\n│%1"
+				+ "\n╰─────────────⭓",
+			onlyAlias: "╭── ALIAS ────⭓"
+				+ "\n│ Các tên gọi khác: %1"
+				+ "\n│ Các tên gọi khác trong nhóm bạn: %2"
+				+ "\n╰─────────────⭓",
+			onlyRole: "╭── ROLE ────⭓"
+				+ "\n│%1"
+				+ "\n╰─────────────⭓",
+			doNotHave: "Không có",
+			roleText0: "0 (Tất cả người dùng)",
+			roleText1: "1 (Quản trị viên nhóm)",
+			roleText2: "2 (Admin bot)",
+			roleText0setRole: "0 (set role, tất cả người dùng)",
+			roleText1setRole: "1 (set role, quản trị viên nhóm)",
+			pageNotFound: "Trang %1 không tồn tại"
+		},
+		en: {
+			help: "╭─────────────⭓"
+				+ "\n%1"
+				+ "\n├─────⭔"
+				+ "\n│ Page [ %2/%3 ]"
+				+ "\n│ Currently, the bot has %4 commands that can be used"
+				+ "\n│ » Type %5help <page> to view the command list"
+				+ "\n│ » Type %5help to view the details of how to use that command"
+				+ "\n├────────⭔"
+				+ "\n│ %6"
+				+ "\n╰─────────────⭓",
+			help2: "%1├───────⭔"
+				+ "\n│ » Currently, the bot has %2 commands that can be used"
+				+ "\n│ » Type %3help <command name> to view the details of how to use that command"
+				+ "\n│ %4"
+				+ "\n╰─────────────⭓",
+			commandNotFound: "Command \"%1\" does not exist",
+			getInfoCommand: "╭── NAME ────⭓"
+				+ "\n│ %1"
+				+ "\n├── INFO"
+				+ "\n│ Description: %2"
+				+ "\n│ Other names: %3"
+				+ "\n│ Other names in your group: %4"
+				+ "\n│ Version: %5"
+				+ "\n│ Role: %6"
+				+ "\n│ Time per command: %7s"
+				+ "\n│ Author: %8"
+				+ "\n├── USAGE"
+				+ "\n│%9"
+				+ "\n├── NOTES"
+				+ "\n│ The content inside <XXXXX> can be changed"
+				+ "\n│ The content inside [a|b|c] is a or b or c"
+				+ "\n╰──────⭔",
+			onlyInfo: "╭── INFO ────⭓"
+				+ "\n│ Command name: %1"
+				+ "\n│ Description: %2"
+				+ "\n│ Other names: %3"
+				+ "\n│ Other names in your group: %4"
+				+ "\n│ Version: %5"
+				+ "\n│ Role: %6"
+				+ "\n│ Time per command: %7s"
+				+ "\n│ Author: %8"
+				+ "\n╰─────────────⭓",
+			onlyUsage: "╭── USAGE ────⭓"
+				+ "\n│%1"
+				+ "\n╰─────────────⭓",
+			onlyAlias: "╭── ALIAS ────⭓"
+				+ "\n│ Other names: %1"
+				+ "\n│ Other names in your group: %2"
+				+ "\n╰─────────────⭓",
+			onlyRole: "╭── ROLE ────⭓"
+				+ "\n│%1"
+				+ "\n╰─────────────⭓",
+			doNotHave: "Do not have",
+			roleText0: "0 (All users)",
+			roleText1: "1 (Group administrators)",
+			roleText2: "2 (Admin bot)",
+			roleText0setRole: "0 (set role, all users)",
+			roleText1setRole: "1 (set role, group administrators)",
+			pageNotFound: "Page %1 does not exist"
+		}
+	},
+
+	onStart: async function ({ message, args, event, threadsData, getLang, role, globalData }) {
+		const langCode = await threadsData.get(event.threadID, "data.lang") || global.GoatBot.config.language;
+		let customLang = {};
+		const pathCustomLang = path.normalize(`${process.cwd()}/languages/cmds/${langCode}.js`);
+		if (fs.existsSync(pathCustomLang))
+			customLang = require(pathCustomLang);
+
+		const { threadID } = event;
+		const threadData = await threadsData.get(threadID);
+		const prefix = getPrefix(threadID);
+		let sortHelp = threadData.settings.sortHelp || "name";
+		if (!["category", "name"].includes(sortHelp))
+			sortHelp = "name";
+		const commandName = (args[0] || "").toLowerCase();
+		let command = commands.get(commandName) || commands.get(aliases.get(commandName));
+		const aliasesData = threadData.data.aliases || {
+			// uid: ["userid", "id"]
+		};
+		if (!command) {
+			for (const cmdName in aliasesData) {
+				if (aliasesData[cmdName].includes(commandName)) {
+					command = commands.get(cmdName);
+					break;
+				}
+			}
+		}
+
+		if (!command) {
+			const globalAliasesData = await globalData.get('setalias', 'data', []);
+			// [{
+			// 	commandName: "uid",
+			// 	aliases: ["uid", "id]
+			// }]
+			for (const item of globalAliasesData) {
+				if (item.aliases.includes(commandName)) {
+					command = commands.get(item.commandName);
+					break;
+				}
+			}
+		}
+
+		// ———————————————— LIST ALL COMMAND ——————————————— //
+		if (!command && !args[0] || !isNaN(args[0])) {
+			const arrayInfo = [];
+			let msg = "";
+			if (sortHelp == "name") {
+				const page = parseInt(args[0]) || 1;
+				const numberOfOnePage = 30;
+				for (const [name, value] of commands) {
+					if (value.config.role > 1 && role < value.config.role)
+						continue;
+					let describe = name;
+					let description;
+					const descriptionCustomLang = customLang[name]?.description;
+					if (descriptionCustomLang != undefined)
+						description = checkLangObject(descriptionCustomLang, langCode);
+					else if (value.config.description)
+						description = checkLangObject(value.config.description, langCode);
+					if (description)
+						describe += `: ${cropContent(description.charAt(0).toUpperCase() + description.slice(1), 50)}`;
+					arrayInfo.push({
+						data: describe,
+						priority: value.priority || 0
+					});
+				}
+
+				arrayInfo.sort((a, b) => a.data - b.data); // sort by name
+				arrayInfo.sort((a, b) => a.priority > b.priority ? -1 : 1); // sort by priority
+				const { allPage, totalPage } = global.utils.splitPage(arrayInfo, numberOfOnePage);
+				if (page < 1 || page > totalPage)
+					return message.reply(getLang("pageNotFound", page));
+
+				const returnArray = allPage[page - 1] || [];
+				const startNumber = (page - 1) * numberOfOnePage + 1;
+				msg += (returnArray || []).reduce((text, item, index) => text += `│ ${index + startNumber}${index + startNumber < 10 ? " " : ""}. ${item.data}\n`, '').slice(0, -1);
+				await message.reply(getLang("help", msg, page, totalPage, commands.size, prefix, doNotDelete));
+			}
+			else if (sortHelp == "category") {
+				for (const [, value] of commands) {
+					if (value.config.role > 1 && role < value.config.role)
+						continue; // if role of command > role of user => skip
+					const indexCategory = arrayInfo.findIndex(item => (item.category || "NO CATEGORY") == (value.config.category?.toLowerCase() || "NO CATEGORY"));
+
+					if (indexCategory != -1)
+						arrayInfo[indexCategory].names.push(value.config.name);
+					else
+						arrayInfo.push({
+							category: value.config.category.toLowerCase(),
+							names: [value.config.name]
+						});
+				}
+				arrayInfo.sort((a, b) => (a.category < b.category ? -1 : 1));
+				arrayInfo.forEach((data, index) => {
+					const categoryUpcase = `${index == 0 ? `╭` : `├`}─── ${data.category.toUpperCase()} ${index == 0 ? "⭓" : "⭔"}`;
+					data.names = data.names.sort().map(item => item = `│ ${item}`);
+					msg += `${categoryUpcase}\n${data.names.join("\n")}\n`;
+				});
+				message.reply(getLang("help2", msg, commands.size, prefix, doNotDelete));
+			}
+		}
+		// ———————————— COMMAND DOES NOT EXIST ———————————— //
+		else if (!command && args[0]) {
+			return message.reply(getLang("commandNotFound", args[0]));
+		}
+		// ————————————————— INFO COMMAND ————————————————— //
+		else {
+			const formSendMessage = {};
+			const configCommand = command.config;
+
+			let guide = configCommand.guide?.[langCode] || configCommand.guide?.["en"];
+			if (guide == undefined)
+				guide = customLang[configCommand.name]?.guide?.[langCode] || customLang[configCommand.name]?.guide?.["en"];
+
+			guide = guide || {
+				body: ""
+			};
+			if (typeof guide == "string")
+				guide = { body: guide };
+			const guideBody = guide.body
+				.replace(/\{prefix\}|\{p\}/g, prefix)
+				.replace(/\{name\}|\{n\}/g, configCommand.name)
+				.replace(/\{pn\}/g, prefix + configCommand.name);
+
+			const aliasesString = configCommand.aliases ? configCommand.aliases.join(", ") : getLang("doNotHave");
+			const aliasesThisGroup = threadData.data.aliases ? (threadData.data.aliases[configCommand.name] || []).join(", ") : getLang("doNotHave");
+
+			let roleOfCommand = configCommand.role;
+			let roleIsSet = false;
+			if (threadData.data.setRole?.[configCommand.name]) {
+				roleOfCommand = threadData.data.setRole[configCommand.name];
+				roleIsSet = true;
+			}
+
+			const roleText = roleOfCommand == 0 ?
+				(roleIsSet ? getLang("roleText0setRole") : getLang("roleText0")) :
+				roleOfCommand == 1 ?
+					(roleIsSet ? getLang("roleText1setRole") : getLang("roleText1")) :
+					getLang("roleText2");
+
+			const author = configCommand.author;
+			const descriptionCustomLang = customLang[configCommand.name]?.description;
+			let description = checkLangObject(configCommand.description, langCode);
+			if (description == undefined)
+				if (descriptionCustomLang != undefined)
+					description = checkLangObject(descriptionCustomLang, langCode);
+				else
+					description = getLang("doNotHave");
+
+			let sendWithAttachment = false; // check subcommand need send with attachment or not
+
+			if (args[1]?.match(/^-g|guide|-u|usage$/)) {
+				formSendMessage.body = getLang("onlyUsage", guideBody.split("\n").join("\n│"));
+				sendWithAttachment = true;
+			}
+			else if (args[1]?.match(/^-a|alias|aliase|aliases$/))
+				formSendMessage.body = getLang("onlyAlias", aliasesString, aliasesThisGroup);
+			else if (args[1]?.match(/^-r|role$/))
+				formSendMessage.body = getLang("onlyRole", roleText);
+			else if (args[1]?.match(/^-i|info$/))
+				formSendMessage.body = getLang(
+					"onlyInfo",
+					configCommand.name,
+					description,
+					aliasesString,
+					aliasesThisGroup,
+					configCommand.version,
+					roleText,
+					configCommand.countDown || 1,
+					author || ""
+				);
+			else {
+				formSendMessage.body = getLang(
+					"getInfoCommand",
+					configCommand.name,
+					description,
+					aliasesString,
+					aliasesThisGroup,
+					configCommand.version,
+					roleText,
+					configCommand.countDown || 1,
+					author || "",
+					guideBody.split("\n").join("\n│")
+				);
+				sendWithAttachment = true;
+			}
+
+			if (sendWithAttachment && guide.attachment) {
+				if (typeof guide.attachment == "object" && !Array.isArray(guide.attachment)) {
+					const promises = [];
+					formSendMessage.attachment = [];
+
+					for (const keyPathFile in guide.attachment) {
+						const pathFile = path.normalize(keyPathFile);
+
+						if (!fs.existsSync(pathFile)) {
+							const cutDirPath = path.dirname(pathFile).split(path.sep);
+							for (let i = 0; i < cutDirPath.length; i++) {
+								const pathCheck = `${cutDirPath.slice(0, i + 1).join(path.sep)}${path.sep}`; // create path
+								if (!fs.existsSync(pathCheck))
+									fs.mkdirSync(pathCheck); // create folder
+							}
+							const getFilePromise = axios.get(guide.attachment[keyPathFile], { responseType: 'arraybuffer' })
+								.then(response => {
+									fs.writeFileSync(pathFile, Buffer.from(response.data));
+								});
+
+							promises.push({
+								pathFile,
+								getFilePromise
+							});
+						}
+						else {
+							promises.push({
+								pathFile,
+								getFilePromise: Promise.resolve()
+							});
+						}
+					}
+
+					await Promise.all(promises.map(item => item.getFilePromise));
+					for (const item of promises)
+						formSendMessage.attachment.push(fs.createReadStream(item.pathFile));
+				}
+			}
+
+			return message.reply(formSendMessage);
+		}
+	}
+};
+
+function checkLangObject(data, langCode) {
+	if (typeof data == "string")
+		return data;
+	if (typeof data == "object" && !Array.isArray(data))
+		return data[langCode] || data.en || undefined;
+	return undefined;
+}
+
+function cropContent(content, max) {
+	if (content.length > max) {
+		content = content.slice(0, max - 3);
+		content = content + "...";
+	}
+	return content;
+        }
