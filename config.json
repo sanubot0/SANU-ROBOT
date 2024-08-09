@@ -17,23 +17,16 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100053549552408",
-    "61557118090040",
-    "100041394069745",
-    "61560240322838",
-		"61560931561254"
+    ""
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Cliff Vincent",
-  "AGE": "18",
-  "GENDER": "MALE",
-  "nickNameBot": "Yazkybot",
-  "FACEBOOK": "https://www.facebook.com/swordigo.swordslush",
-  "prefix": "✓",
+  "nickNameBot": "KAY JULES LANG LULUHOD! SABAY BJ😍",
+  "ownerlink": "https://www.facebook.com/profile.php?id=100084525945365",
+  "prefix": "-",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -44,10 +37,10 @@
   "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "cliffbotbeluga@gmail.com",
+      "email": "angeliclao936@gmail.com",
       "clientId": "335951889803-q0sqvpqjire12vl0c1drqpvq6trqe7qi.apps.googleusercontent.com",
       "clientSecret": "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",
-      "refreshToken": "1//04vKSsirtbMjRCgYIARAAGAQSNwF-L9Ir45Y2gJy6rg7wvfCbzF5fTFQxOhV83N6jQC-N5n6S-rNnEUgujiuWu4OvrLEbmELMcSI",
+      "refreshToken": "1//04DKefxGioZYDCgYIARAAGAQSNwF-L9Ir3b7kDR5ZTR_7ZJOwOBiHtuD9zDBASc9ybLisMsFFjpSFFV-gwLiyrKQmk6H6Yt7gb34",
       "apiKey": ""
     },
     "gRecaptcha": {
@@ -62,12 +55,11 @@
   },
   "serverUptime": {
     "enable": false,
-    "port": 3000,
+    "port": 3001,
     "socket": {
       "enable": true,
       "channelName": "uptime",
-      "verifyToken": "AJ3mQqe9wrL8sF5NAwJuSteH",
-      "url": ""
+      "verifyToken": ""
     }
   },
   "autoRestart": {
@@ -76,8 +68,8 @@
   },
   "autoUptime": {
     "enable": true,
-    "timeInterval": 8640,
-    "url": "${process.env.DevURL}.sisko.replit.dev/",
+    "timeInterval": 500,
+    "url": "https://uptime.botrandom30.repl.co",
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
@@ -143,11 +135,5 @@
     "autoMarkDelivery": false,
     "autoReconnect": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-  },
-  "whiteListModeThread": {
-    "enable": false,
-    "whiteListThreadIds": [],
-    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
-    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
 }
