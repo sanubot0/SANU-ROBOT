@@ -92,17 +92,25 @@ handlerCheckData.cantCreateUser=Users with id '%1' cannot be written to the data
 handlerEvents.userBanned=You have been banned from using the bot\n» Reason: %1\n» Time: %2\n» User ID: %3
 handlerEvents.threadBanned=This group has been banned from using the bot\n» Reason: %1\n» Time: %2\n» Thread ID: %3
 handlerEvents.onlyAdminBox=This group is currently enabled only group administrators can use the bot
-handlerEvents.onlyAdminBot=❌ | Currently only bot's admin can use bot
-handlerEvents.commandNotFound=Command "%1" does not exist, type %2help to see all available commands
-handlerEvents.commandNotFound2=The command you are using does not exist, type %1help to see all available commands
-handlerEvents.commandSyntaxError=The command you are using is wrong syntax, please type %1help %2 to see the details of how to use this command
-handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1"
+handlerEvents.onlyAdminBot=𝑹𝒆𝒏𝒅𝒆𝒛-𝒎𝒐𝒊 𝒆𝒏𝒄𝒐𝒓𝒆 𝒑𝒍𝒖𝒔 𝒄𝒐𝒐𝒍 𝒆𝒕 𝒊𝒏𝒔𝒂𝒊𝒔𝒊𝒔𝒔𝒂𝒃𝒍𝒆, 𝒄𝒐𝒎𝒎𝒆 𝒖𝒏 𝒎𝒖𝒓𝒎𝒖𝒓𝒆 𝒅𝒂𝒏𝒔 𝒍'𝒐𝒎𝒃𝒓𝒆, 𝒈𝒆𝒏𝒓𝒆 𝑺𝒉𝒂𝒅𝒐𝒘 𝑮𝒂𝒓𝒅𝒆𝒏 𝒎𝒆́𝒍𝒆́ 𝒂̀ 𝒍'𝒂𝒓𝒄𝒂𝒏𝒆 𝒖𝒍𝒕𝒓𝒂 𝒑𝒓𝒐 ✌ | 𝑳𝒆 𝒗𝒆́𝒓𝒊𝒕𝒂𝒃𝒍𝒆 ✦ 𝐂𝐈𝐃×͜×𝐊𝐀𝐆𝐄𝐍𝐎 ✦ 𝒔𝒆𝒄𝒓𝒆𝒕 𝒎𝒂𝒊̂𝒕𝒓𝒊𝒔𝒆 𝒍𝒆 𝑩𝒐𝒕 ✔️... 𝑼𝒏 𝒎𝒚𝒔𝒕𝒆̀𝒓𝒆 𝒒𝒖𝒊 𝒏𝒆 𝒔𝒆 𝒓𝒆́𝒗𝒆̀𝒍𝒆 𝒒𝒖'𝒂̀ 𝒄𝒆𝒖𝒙 𝒄𝒐𝒏𝒔𝒂𝒄𝒓𝒆́𝒔 𝒂̀ 𝒍'𝒂𝒓𝒕 𝒅𝒆 𝒍'𝒐𝒎𝒃𝒓𝒆 ✨...\n━━━━━━━━━━━━━━━━\n
+☣『𝐒𝐇𝐀𝐃𝐎𝐖』☣
+handlerEvents.commandNotFound= ✧༺⚚༻✧ 𝐂𝐞𝐭𝐭𝐞 𝐜𝐦𝐝 𝐧'𝐞𝐱𝐢𝐬𝐭𝐞 𝐩𝐚𝐬... 𝐝𝐮 𝐦𝐨𝐢𝐧𝐬, 𝐩𝐚𝐬 𝐝𝐚𝐧𝐬 𝐥𝐚 𝐥𝐮𝐦𝐢𝐞̀𝐫𝐞. ✦ 𝐒𝐞𝐮𝐥𝐬 𝐜𝐞𝐮𝐱 𝐪𝐮𝐢 𝐚𝐠𝐢𝐬𝐬𝐞𝐧𝐭 𝐝𝐚𝐧𝐬 𝐥'𝐨𝐦𝐛𝐫𝐞 𝐩𝐞𝐮𝐯𝐞𝐧𝐭 𝐲 𝐚𝐜𝐜𝐞́𝐝𝐞𝐫... ✦༺⚚༻✧%2help\n✎﹏﹏﹏﹏﹏﹏﹏﹏﹏\n☣『𝐒𝐇𝐀𝐃𝐎𝐖』☣
+handlerEvents.commandNotFound2=🧬✨ 𝙼𝚈 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 ✨🧬|𝐋'𝐀𝐥𝐜𝐡𝐢𝐦𝐢𝐞 𝐝𝐞 𝐥'𝐀𝐧𝐜𝐢𝐞𝐧 𝐦𝐨𝐧𝐝𝐞 ✶ 𝐢𝐧𝐟𝐮𝐬𝐞́𝐞 𝐝𝐚𝐧𝐬 𝐥𝐚 𝐩𝐞𝐫𝐟𝐞𝐜𝐭𝐢𝐨𝐧 𝐦𝐨𝐝𝐞𝐫𝐧𝐞 🌌\n╔≕≔≕≔≕≔≕≔≕≔≕≔≕╗\n✦ 𝐂𝐈𝐃×͜×𝐊𝐀𝐆𝐄𝐍𝐎 ✦ \n╚≕≔≕≔≕≔≕≔≕≔≕≔≕╝\n✨𝙇𝙄𝙉𝙆'𝙎 𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 & 𝙒𝙃𝘼𝚃𝙎𝔸𝙋✨\n≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕≔\n╔≕≔≕≔≕☣☣☣≕≔≕≔≔╗\n『https://www.facebook.com/cidkageno228』『📞【WhatsApp】`https://wa.me/+22879583073』╚≕≔≕≔≕☣☣☣≕≔≕≔≕╝ \n≕≔≕≔≕≔≕≔≕≔≔≔≕≔≕≔≕\n☣𝐀𝐓𝐎𝐌𝐈𝐂☣ 𝐁𝐎𝐓☣:\n☣『𝐒𝐇𝐀𝐃𝐎𝐖』☣
+handlerEvents.commandSyntaxError=🚫| ⚠️🌑 𝙄𝙉𝘾𝙊𝙍𝙍𝙀𝘾𝙏 𝙎𝙔𝙉𝙏𝘼𝙓𝙀 🌑⚠️
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+❗𝒞𝒪𝒩𝒯𝒶𝒸𝒯 𝒲𝒾𝓉𝒽 𝒞𝒜𝒩𝒸𝑒𝒾𝒹 𝒞𝒲𝒟❗
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+handlerEvents.onlyAdmin=❌ | Only group administrators can use the command "%1" \n≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕\n☣『𝐒𝐇𝐀𝐃𝐎𝐖』☣
 handlerEvents.onlyAdminToUseOnReply=❌ | Only group administrators can use the reply function of the command "%1"
-handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1"
-handlerEvents.onlyAdminBot2=❌ | Only bot's admin can use the command "%1"
+handlerEvents.onlyAdminToUseOnReaction=❌ | Only group administrators can use the reaction function of the command "%1" \n≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕≔\n☣『𝐒𝐇𝐀𝐃𝐎𝐖』☣
+handlerEvents.onlyAdminBot2=❌ | 🕵️‍♂️🌑 𝑆𝑒𝑢𝑙 🌟 ★ 𝐂𝐈𝐃×͜×𝐊𝐀𝐆𝐄𝐍𝐎 ★ 𝑢𝑡𝑖𝑙𝑖𝑠𝑒 𝑙𝑎 𝑐𝑜𝑚𝑚𝑎𝑛𝒹𝑒  🌟🕵️‍♂️
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+🌌🔮 𝑂𝓂𝒷𝓇𝑒𝒹 𝒾𝓃 𝓉𝒽𝑒 𝒸𝒽𝒶𝓈𝓂 𝑜𝒻 𝓉𝒽𝑒 𝒹𝒶𝓇𝓀𝓃𝑒𝒾𝓃𝑔 🌌🔮 ✨%1✨
 handlerEvents.onlyAdminBot2ToUseOnReply=❌ | Only bot's admin can use the reply function of the command "%1"
 handlerEvents.onlyAdminBot2ToUseOnReaction=❌ | Only bot's admin can use the reaction function of the command "%1"
-handlerEvents.waitingForCommand=⏱ You are in the waiting time to use this command, please come back after %1s
+handlerEvents.waitingForCommand=💁| 🌟🕯️ 𝐓𝐨𝐮𝐭 𝐜𝐨𝐦𝐞 𝐜𝐨𝐦𝐞 𝐝𝐞 𝐥𝐚 𝑛𝒰𝒾𝒯... 𝑷𝒂𝒕𝒊𝒆𝒏𝒄𝒆 𝑬𝒔𝒕 𝑳𝒂 𝑩𝒓𝒆𝒗𝒆 𝑴𝒂𝒓𝒈𝒊𝒏𝒆 🌟🕯️
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+🧩🕵️‍♂️ 𝑳'𝒐𝒓𝒅𝒓𝒆 𝒔𝒆 𝒄𝒓𝒆́𝒆 𝒄𝒂𝒍𝒎𝒆𝒏𝒕... 𝒄'𝒆𝒔𝒕 𝒍'𝒐𝒓𝒅𝒓𝒆 𝒅𝒆𝒍'𝒆𝒎𝒃𝒓𝒶𝒹𝒾𝒏𝑔 🕵️‍♂️🧩 {%1s}\n≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕≔≕\n☣『𝐒𝐇𝐀𝐃𝐎𝐖』☣
 handlerEvents.errorOccurred=❌ [ %1 ]\nAn error occurred at command "%2"\n\n%3
 handlerEvents.errorOccurred2=❌ [ %1 ]\nAn error occurred at command onChat in command "%2"\n\n%3
 handlerEvents.errorOccurred3=❌ [ %1 ]\nAn error occurred when executing onReply at command "%2"\n\n%3
