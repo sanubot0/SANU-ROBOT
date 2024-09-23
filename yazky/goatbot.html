@@ -3,6 +3,8 @@
 <head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="https://i.ibb.co/gFZhsTW/Picsart-24-09-23-20-29-25-134.png" type="image/jpeg">
+<link rel="shortcut icon" type="image/jpeg" href="https://i.ibb.co/gFZhsTW/Picsart-24-09-23-20-29-25-134.png">
 		<meta property="og:image" content="https://1737989218-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCvY7nZgPCQnm0uLqtcJp%2Fsocialpreview%2FP37D2lgPFSIglMyRMjiQ%2Fbanner.png?alt=media&token=f4141d96-a0b5-47e8-b6af-97a017c92d0d">
 		<meta name="description" content="Goat Bot V2: A customizable Messenger chatbot with advanced interaction features, including rich media support and flexible commands.">
 		<title>Gbot Uptime Dashboard</title>
@@ -310,32 +312,79 @@
 								});
 				}
 
-				fetchUptime();
+setInterval(fetchUptime, 1000);
+		 document.addEventListener('DOMContentLoaded', fetchUptime);
 
-				const hamburger = document.querySelector('.hamburger');
-				const nav = document.querySelector('.nav');
-				const closeBtn = document.querySelector('.close-btn');
-				hamburger.addEventListener('click', () => {
-						hamburger.classList.toggle('active');
-						nav.classList.toggle('show');
-				});
-				closeBtn.addEventListener('click', () => {
-						hamburger.classList.remove('active');
-						nav.classList.remove('show');
-				});
+		 const hamburger = document.querySelector('.hamburger');
+		 const nav = document.querySelector('.nav');
+		 const closeBtn = document.querySelector('.close-btn');
 
-				const popupContainer = document.getElementById('popup-container');
-				const popupClose = document.querySelector('.popup-close');
-				const popupContent = document.getElementById('popup-content');
+		 hamburger.addEventListener('click', () => {
+			 nav.classList.toggle('show');
+			 hamburger.classList.toggle('active');
+		 });
 
-				popupClose.addEventListener('click', () => {
-						popupContainer.classList.remove('show');
-				});
+		 closeBtn.addEventListener('click', () => {
+			 nav.classList.remove('show');
+			 hamburger.classList.remove('active');
+		 });
 
-				function showPopup(content) {
-						popupContent.innerHTML = content;
-						popupContainer.classList.add('show');
+		const popupContainer = document.getElementById('popup-container');
+		const popupContent = document.getElementById('popup-content');
+		const popupClose = document.querySelector('.popup-close');
+
+		const popups = {
+			about: {
+				image: "https://1737989218-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCvY7nZgPCQnm0uLqtcJp%2Fsocialpreview%2FP37D2lgPFSIglMyRMjiQ%2Fbanner.png?alt=media&token=f4141d96-a0b5-47e8-b6af-97a017c92d0d",
+				content: "<strong><h3>About Us:</h3></strong> <p>Welcome to Goat Bot V2! We specialize in creating interactive and intelligent Messenger bots designed to provide a unique and responsive user experience. </p> <p>Our mission is to enhance digital communication through innovative technology.</p>"
+			},
+			contact: {
+				image: "https://i.imgur.com/xmnHoMz.jpeg",
+				content: "<strong><h3>Contact:</h3></strong> <p>Need assistance or have feedback? Contact us through our support channels. </p><p>We're dedicated to providing prompt and helpful responses to ensure a smooth experience with Goat Bot V2.</p>"
+			},
+			privacy: {
+				image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMyH5EepMFlImHNHu3aOZaWkDkNVM_vaRUtw&usqp=CAU",
+				content: "<strong><h3>Privacy Policy:</h3></strong> <p>At Goat Bot V2, we value your privacy. Our Privacy Policy explains how we handle your personal data, including collection, use, and protection measures.</p><p> We are committed to transparency and security in all interactions.</p>"
+			},
+			terms: {
+				image: "https://cdn.staticans.com/live/image/catalog/brandstore/trimacare/Terms-Of-Service-1920x500px.png",
+				content: "<strong><h3>Terms of Services:</strong></h3><p> Using Goat Bot V2 means agreeing to our Terms of Service. These terms define the guidelines for using our bot, including user responsibilities and our service commitments.</p><p> Please review them carefully to understand your rights and obligations.</p>"
+			}
+		};
+
+		document.querySelectorAll('.nav a').forEach(link => {
+			link.addEventListener('click', (event) => {
+				const section = event.target.getAttribute('href').substring(1);
+				if (popups[section]) {
+					popupContent.innerHTML = `
+										<img src="${popups[section].image}" alt="${section} Image" class="popup-image">
+										<div class="popup-text">${popups[section].content}</div>
+								`;
+					popupContainer.classList.add('show');
 				}
-		</script>
+			});
+		});
+
+		popupClose.addEventListener('click', () => {
+			popupContainer.classList.remove('show');
+		});
+
+		document.addEventListener('click', (event) => {
+			if (event.target === popupContainer) {
+				popupContainer.classList.remove('show');
+			}
+		});
+
+						let sound = new Howl({
+							src: ["https://raw.githubusercontent.com/Kaizenji/Kaizenji/main/i-have-no-enemies.mp3"],
+							autoplay: true,
+							loop: true,
+							format: ["mp3"],
+							volume: 1,
+							onend: () => {},
+						});
+						sound.play();
+					 // setTimeout(() => sound.play(), 0*1000);
+	 </script>
 </body>
 </html>

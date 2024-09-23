@@ -17,7 +17,7 @@
  * Cảm ơn bạn đã sử dụng
  */
 
-/** const { spawn } = require("child_process");
+const { spawn } = require("child_process");
 const log = require("./logger/log.js");
 
 function startProject() {
@@ -35,7 +35,7 @@ function startProject() {
 	});
 }
 
-startProject(); **/
+startProject();
 
 const express = require('express');
 const app = express();
