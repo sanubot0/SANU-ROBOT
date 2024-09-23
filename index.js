@@ -44,8 +44,10 @@ const axios = require('axios');
 
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'yazky', 'goatbot.html'));
+app.use(express.json());
+
+app.get("/", async function (req, res) {
+	res.sendFile(path.join(__dirname, "/yazky/goatbot.html"));
 });
 
 const { RsnChat } = require('rsnchat');
