@@ -17,7 +17,7 @@
  * Cảm ơn bạn đã sử dụng
  */
 
-const { spawn } = require("child_process");
+/** const { spawn } = require("child_process");
 const log = require("./logger/log.js");
 
 function startProject() {
@@ -35,7 +35,7 @@ function startProject() {
 	});
 }
 
-startProject();
+startProject(); **/
 
 const express = require('express');
 const app = express();
@@ -50,7 +50,7 @@ app.get("/", async function (req, res) {
 	res.sendFile(path.join(__dirname, "/yazky/goatbot.html"));
 });
 
-const { RsnChat } = require('rsnchat');
+/** const { RsnChat } = require('rsnchat');
 
 const rsnchat = new RsnChat('rsnai_C5Y6ZSoUt3LRAWopF6PQ2Uef');
 
@@ -67,7 +67,7 @@ app.get('/architecture', async (req, res) => {
 		} catch (error) {
 				res.status(500).json({ error: 'An error occurred: ' + error.message });
 		}
-});
+}); **/
 
 const os = require('os');
 
@@ -96,7 +96,6 @@ app.get('/uptime', (req, res) => {
 
 		res.json(uptimeData);
 });
-
 
 app.listen(port, () => {
 		console.log(`Server is running on http://localhost:${port}`);
